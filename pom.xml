@@ -13,6 +13,7 @@
         <dextorm.version>1.1.0-SNAPSHOT</dextorm.version>
         <dextorm.gui.version>1.1.0-SNAPSHOT</dextorm.gui.version>
     </properties>
+    
     <build>
 
         <extensions></extensions>
@@ -91,16 +92,27 @@
         <dependencies></dependencies>
     </dependencyManagement>
 
+    <repositories>
+        <repository>
+            <id>reposilite-repository-snapshots</id>
+            <name>MIAGE.DEV maven repository</name>
+            <url>https://maven.miage.dev/snapshots</url>
+          </repository>
+      </repositories>
+
+
     <distributionManagement>
         <repository>
-            <id>miage</id>
+            <id>reposilite-repository-releases</id>
+            <name>MIAGE.DEV maven repository</name>
             <url>https://maven.miage.dev/releases</url>
-        </repository>
+          </repository>
 
-        <snapshotRepository>
+          <snapshotRepository>
             <id>miage</id>
             <url>https://maven.miage.dev/snapshots</url>
         </snapshotRepository>
+
     </distributionManagement>
 
 </project>
