@@ -17,3 +17,5 @@ GITHUB_OAUTH=<<github personal token> REPO_URL=nh-group/basic-cli-uni java -cp $
 * open your browser `http://localhost:8080` and interact with the app to see the requirements changing.
 
 if needed, jar files for the app, gui and basic-uni-cli can be replaced by new jarfiles built from the source.
+
+* You can modify the dextorm.yaml configuration file to suite your needs
